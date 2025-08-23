@@ -86,7 +86,7 @@ git clone --depth=1 https://github.com/kaleben0/es-fusion-slice.git /home/$SUDO_
 git clone --depth=1 https://github.com/XyberDAWG/es-theme-fundamental.git /home/$SUDO_USER/.emulationstation/themes/fundamental
 
 # Replace "Default" with "Retrorama" in es_settings.cfg
-sed -i 's/<string name="ThemeSet" value=".*"/<string name="ThemeSet" value="retrorama"/' ~/.emulationstation/es_settings.cfg
+sudo -u $SUDO_USER sed -i 's/<string name="ThemeSet" value=".*"/<string name="ThemeSet" value="new-theme-name"/' /home/$SUDO_USER/.emulationstation/es_settings.cfg
 
 #Reboot
 reboot
