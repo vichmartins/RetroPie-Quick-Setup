@@ -58,7 +58,6 @@ raspi-config nonint do_boot_behaviour B2
 sudo -u $SUDO_USER git clone --depth=1 https://github.com/lipebello/es-theme-retrorama.git /home/$SUDO_USER/.emulationstation/themes/retrorama
 sudo -u $SUDO_USER git clone --depth=1 https://github.com/TMNTturtleguy/es-theme-ComicBook.git /home/$SUDO_USER/.emulationstation/themes/ComicBook
 sudo -u $SUDO_USER git clone --depth=1 https://github.com/hoover900/es-theme-Not-so-Epic.git /home/$SUDO_USER/.emulationstation/themes/Not-so-Epic
-sudo -u $SUDO_USER git clone --depth=1 https://github.com/fagnerpc/Alekfull-ARTFLIX.git /home/$SUDO_USER/.emulationstation/themes/Alekfull-ARTFLIX
 sudo -u $SUDO_USER git clone --depth=1 https://github.com/pajarorrojo/es-theme-PlayStation-X.git /home/$SUDO_USER/.emulationstation/themes/PlayStation-X
 
 #Reboot
